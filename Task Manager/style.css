@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#taskForm {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#taskForm input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#taskForm select {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#taskForm label {
+  margin-right: 10px;
+  font-size: 0.95rem;
+}
+
+#taskForm button {
+  padding: 5px 12px;
+  cursor: pointer;
+}
+
+#error {
+  text-align: center;
+  color: red;
+  min-height: 18px;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+#taskmanager {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-top: 1px solid #000;
+}
+
+.task-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  border-bottom: 1px solid #000;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.task-name {
+  flex: 2;
+  padding-right: 10px;
+  word-break: break-word;
+  font-size: 1rem;
+}
+
+.task-priority {
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.task-date {
+  flex: 0 0 90px;
+  text-align: right;
+  font-size: 0.9rem;
+  margin-right: 8px;
+}
+
+.task-actions {
+  flex: 0 0 130px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+  font-size: 0.9rem;
+}
+
+.task-actions button {
+  padding: 3px 8px;
+  cursor: pointer;
+}
